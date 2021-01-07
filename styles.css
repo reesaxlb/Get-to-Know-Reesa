@@ -1,0 +1,63 @@
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #d9bceb, #a9e8b4);
+}
+
+.font {
+    font-family: georgia;
+}
+
+.button {
+    font-family: verdana;
+}
+
+.button {
+    width: 160px;
+    height: 90px;
+    background-color: #a9e8b4;
+    animation-name: button;
+    animation-duration: 8s;
+}
+
+@keyframes button {
+    from {
+        background-color: #a9e8b4;
+    }
+
+    to {
+        background-color: #6c2deb;
+    }
+}
+
+.button {
+    width: 160px;
+    height: 90px;
+    position: relative;
+    background-color: #a9e8b4;
+    animation-name: button;
+    animation-duration: 8s;
+    animation-iteration-count: 15;
+}
+
+.right {
+    transition-duration: 1s;
+}
+
+.right:hover {
+    background-color: #00ff00;
+    color: white;
+}
+
+.wrong {
+    transition-duration: 1s;
+}
+
+.wrong:hover {
+    background-color: #ff0000;
+    color: white;
+}
